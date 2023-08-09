@@ -10,6 +10,7 @@ import { BsDatepickerModule } from 'ngx-bootstrap/datepicker';
 import { PaginationModule } from 'ngx-bootstrap/pagination';
 import { ButtonsModule } from 'ngx-bootstrap/buttons';
 import { TimePastPipe } from 'ng-time-past-pipe';
+import { ModalModule } from 'ngx-bootstrap/modal';
 
 @NgModule({
   declarations: [],
@@ -29,6 +30,7 @@ import { TimePastPipe } from 'ng-time-past-pipe';
     PaginationModule.forRoot(),
     ButtonsModule.forRoot(),
     TimePastPipe,
+    ModalModule.forRoot(),
   ],
   exports: [
     BsDropdownModule,
@@ -41,6 +43,7 @@ import { TimePastPipe } from 'ng-time-past-pipe';
     PaginationModule,
     ButtonsModule,
     TimePastPipe,
+    ModalModule,
   ],
 })
 export class SharedModule {}
