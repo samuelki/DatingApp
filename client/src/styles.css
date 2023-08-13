@@ -53,3 +53,7 @@
 .member-tabset > .nav-tabs .nav-link {
   border: none;
 }
+
+.gallery {
+  height: 600px;
+}
