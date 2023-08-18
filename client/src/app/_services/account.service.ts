@@ -1,6 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { BehaviorSubject, map } from 'rxjs';
+import { BehaviorSubject } from 'rxjs';
+import { map } from 'rxjs/operators';
 import { User } from '../_models/user';
 import { environment } from 'src/environments/environment';
 import { PresenceService } from './presence.service';

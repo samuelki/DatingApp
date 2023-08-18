@@ -2,7 +2,7 @@ import { inject } from '@angular/core';
 import { CanActivateFn } from '@angular/router';
 import { AccountService } from '../_services/account.service';
 import { ToastrService } from 'ngx-toastr';
-import { map } from 'rxjs';
+import { map } from 'rxjs/operators';
 
 export const adminGuard: CanActivateFn = (route, state) => {
   const accountService = inject(AccountService);
